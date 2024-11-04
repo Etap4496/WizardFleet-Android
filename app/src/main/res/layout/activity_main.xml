@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Logo -->
+
+    <!-- Title -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="115dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Council of Wizards"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textColor="#000" />
+
+    <!-- Airship Buttons -->
+    <Button
+        android:id="@+id/buttonWindrider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Windrider DR-512"
+        android:backgroundTint="#0000FF"
+        android:textColor="#FFF"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonStormchaser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stormchaser ST-743"
+        android:backgroundTint="#0000FF"
+        android:textColor="#FFF"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonSkybreaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skybreaker SK-301"
+        android:backgroundTint="#0000FF"
+        android:textColor="#FFF"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonThunderhawk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thunderhawk TH-104"
+        android:backgroundTint="#0000FF"
+        android:textColor="#FFF"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
